@@ -8,6 +8,6 @@ public class Bill3 {
 		int totalsum = Integer.parseInt(args[3]);
 		// Calculate how much money each person need to pay
 		double eachprice = Math.ceil(totalsum / 3.0);
-		System.out.println("Dear " + name1 + ", " + name2 + "and " + name3 + ": pay " + eachprice + " shekels each");
+		System.out.println("Dear " + name1 + ", " + name2 + " and " + name3 + ": pay " + eachprice + " shekels each");
 	}
 }
